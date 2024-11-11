@@ -18,7 +18,9 @@ Dive into the classic game of Ping Pong with our interactive web-based version, 
 
 ## Prerequisites
 
-- Web browser with JavaScript enabled
+- Web browser with JavaScript enabled, Note: This is just the basic i have made it.
+
+![image](https://github.com/user-attachments/assets/9854691e-2a06-49cb-b5c2-1dace50dbf5a)
 
 ## Installation
 
