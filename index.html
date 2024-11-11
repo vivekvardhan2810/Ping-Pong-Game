@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enhanced Ping Pong Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Ping Pong Game</h1>
+        <div id="controls">
+            <p>Player 1 (Left Paddle): Use W (up), S (down)</p>
+            <p>Player 2 (Right Paddle): Use Up Arrow (up), Down Arrow (down)</p>
+            <button id="start-button" onclick="startGame()">Start Game</button>
+            <p id="score">Player 1: 0 | Player 2: 0</p>
+            <div id="control-buttons">
+                <button onclick="movePaddle('left', 'up')">Left Paddle Up (W)</button>
+                <button onclick="movePaddle('left', 'down')">Left Paddle Down (S)</button>
+                <button onclick="movePaddle('right', 'up')">Right Paddle Up (&#8593;)</button>
+                <button onclick="movePaddle('right', 'down')">Right Paddle Down (&#8595;)</button>
+            </div>
+        </div>
+        <div id="game">
+            <div id="board">
+                <div class="divider"></div>
+            </div>
+            <div id="paddle-left"></div>
+            <div id="paddle-right"></div>
+            <div id="ball"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
